@@ -1,8 +1,9 @@
 .banner .carousel-item {
   height: 90vh;
 }
+
 .banner .carousel-item::before {
-  content: '';
+  content: "";
   background-color: rgba(13, 30, 45, 0.6);
   position: absolute;
   height: 100%;
@@ -12,20 +13,26 @@
   left: 0;
   bottom: 0;
 }
+
 .banner .carousel-caption {
   top: 30%;
 }
+
 .banner h2 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 3.1875em;
-  font-weight: bold;  
+  font-weight: bold;
 }
+
 .banner h2 span {
   color: #ffb03b;
 }
+
 .banner p {
   color: #fff;
   max-width: 70%;
   margin: 30px auto;
 }
+
+/*# sourceMappingURL=style.css.map */
