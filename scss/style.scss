@@ -50,3 +50,20 @@
   color: #ffb03b;
   margin-right: 15px;
 }
+.events{
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)) ,url('../img/events-bg.jpg') no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.main-title-events{
+  color: #fff;
+  max-width: 100%;
+}
+.img-events{
+  padding: 0;
+}
+.box-events{
+  color: #fff;
+  background: rgba(255, 255, 255, .08);
+  padding: 30px;
+}
