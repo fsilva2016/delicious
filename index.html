@@ -215,9 +215,9 @@
             <div class="col-12 d-flex justify-content-center">
               <nav>
                 <div class="nav nav-pills mb-3" id="nav-tab" role="tablist">
-                  <a class="nav-item nav-link active" id="nav-lanches-tab" data-toggle="tab" href="#tab-lanches" role="tab">Lanches</a>
-                  <a class="nav-item nav-link" id="nav-bebidas-tab" data-toggle="tab" href="#tab-bebidas" role="tab">Pratos do dia</a>
-                  <a class="nav-item nav-link" id="nav-salgados-tab" data-toggle="tab" href="#tab-salgados" role="tab">Bebidas</a>
+                  <a class="btn btn-outline-warning active" id="nav-lanches-tab" data-toggle="tab" href="#tab-lanches" role="tab">Lanches</a>
+                  <a class="btn btn-outline-warning mx-3" id="nav-bebidas-tab" data-toggle="tab" href="#tab-bebidas" role="tab">Pratos do dia</a>
+                  <a class="btn btn-outline-warning" id="nav-salgados-tab" data-toggle="tab" href="#tab-salgados" role="tab">Bebidas</a>
                 </div>
               </nav>
             </div>
@@ -363,13 +363,13 @@
           <div class="row align-items-center">
             <div class="col-3">
               <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Prato 1</a>
-                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Prato 2</a>
-                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Prato 3</a>
-                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Prato 4</a>
+                <a class="btn btn-outline-warning my-1 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Prato 1</a>
+                <a class="btn btn-outline-warning my-1" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Prato 2</a>
+                <a class="btn btn-outline-warning my-1" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Prato 3</a>
+                <a class="btn btn-outline-warning my-1" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Prato 4</a>
               </div>
             </div>
-            <div class="col-9">
+            <div class="col-9 py-3">
               <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                   <div class="row align-items-center">
@@ -479,6 +479,53 @@
         </div>
       </section>
       <!-- events /-->
+
+      <!-- book-a-table -->
+      <section id="book-a-table" class="book-a-table py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 pb-3">
+              <header class="main-title">
+                <h2>Faça uma reserva no <span>Delicious</span> Restaurant</h2>
+                <p>
+                  Aut recusandae magni laborum ab iure at nulla distinctio incidunt placeat natus minima debitis ducimus ipsa laboriosam beatae, possimus consequatur sapiente!
+                </p>
+              </header>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">              
+              <form action="" class="shadow p-4">
+                <div class="form-row">
+                  <div class="col-lg-4 col-md-6 form-group">
+                    <input type="text" id="txtName" class="form-control" placeholder="Seu nome"/>
+                  </div>
+                  <div class="col-lg-4 col-md-6 form-group">
+                    <input type="email" id="txtEmail" class="form-control" placeholder="Seu email"/>
+                  </div>
+                  <div class="col-lg-4 col-md-6 form-group">
+                    <input type="text" id="txtPhone" class="form-control" placeholder="Seu telefone"/>
+                  </div>
+                  <div class="col-lg-4 col-md-6 form-group">
+                    <input type="text" id="txtDate" class="form-control" placeholder="dd/mm/aaaa"/>
+                  </div>
+                  <div class="col-lg-4 col-md-6 form-group">
+                    <input type="email" id="txtTime" class="form-control" placeholder="Hora"/>
+                  </div>
+                  <div class="col-lg-4 col-md-6 form-group">
+                    <input type="number" id="txtPeoples" class="form-control" placeholder="Número de pessoas"/>
+                  </div>
+                  <div class="col form-group">
+                    <textarea id="txtMessage" class="form-control" rows="5" placeholder="Deixe uma mensagem"></textarea>
+                  </div>
+                </div>
+                <button class="btn btn-warning">Reservar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- book-a-table /-->
       <script src="https://kit.fontawesome.com/65b3658ca8.js" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
