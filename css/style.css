@@ -101,7 +101,6 @@
 }
 
 .chefs .member .member-info {
-  position: absolute;
   bottom: -80px;
   left: 20px;
   right: 20px;
@@ -171,6 +170,13 @@
 
 .social-footer a:hover {
   background: #ffb03b;
+}
+
+/* media query */
+@media (max-width: 1250px) {
+  .banner .carousel-item {
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
